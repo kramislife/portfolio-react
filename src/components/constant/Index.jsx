@@ -1,4 +1,14 @@
-import { Facebook, Github, Instagram, Linkedin, Mail } from "lucide-react";
+import {
+  BookOpenText,
+  Code,
+  Dock,
+  Facebook,
+  Figma,
+  Github,
+  Instagram,
+  Linkedin,
+  Mail,
+} from "lucide-react";
 import { FaFigma, FaGithub, FaHtml5, FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { SiShadcnui, SiFigma } from "react-icons/si";
@@ -92,17 +102,17 @@ export const Project = [
     type: "Personal Project",
     image: elysium,
     description:
-      "A virtual reality platform that allows users to explore and interact with a 3D environment using VR headsets.",
+      "This virtual reality (VR) website was designed to educate users on how VR technology works. It also leverages UI elements to create a smooth, immersive experience.",
     link: "https://elysium-virtual-reality.vercel.app/",
     tool: ["HTML", "Tailwind CSS", "React JS", "Framer Motion", "ShadCN"],
   },
   {
     id: 2,
-    name: "It Help Desk Portal",
+    name: "IT Help Desk Portal",
     type: "Internship",
     image: helpdesk,
     description:
-      "A virtual reality platform that allows users to explore and interact with a 3D environment using VR headsets.",
+      "The IT Help Desk Portal was built to streamline the process of helping users find solutions to their technical problems. It leverages a comprehensive knowledge base, interactive guides, and a simple interface that ensures users can resolve issues quickly and independently.",
     link: "https://drive.google.com/file/d/1VPJwF3EvOj-7PGX7b9T55mrgXkV8ppCu/view",
     tool: [
       "HTML",
@@ -132,7 +142,7 @@ export const Project = [
     description:
       "A virtual reality platform that allows users to explore and interact with a 3D environment using VR headsets.",
     link: "https://www.google.com",
-    tool: ["HTML", "CSS", "Vanilla JavaScript", "Python", "MySQL"],
+    tool: ["HTML", "Bootstrap CSS", "Vanilla JavaScript", "Python", "MySQL"],
   },
   {
     id: 5,
@@ -142,13 +152,7 @@ export const Project = [
     description:
       "A virtual reality platform that allows users to explore and interact with a 3D environment using VR headsets.",
     link: "https://www.google.com",
-    tool: [
-      "HTML",
-      "Bootstrap CSS",
-      "Vanilla JavaScript",
-      "Framer Motion",
-      "ShadCN",
-    ],
+    tool: ["HTML", "Bootstrap CSS", "Vanilla JavaScript"],
   },
 ];
 
@@ -176,5 +180,37 @@ export const Experience = [
     duration: "2020 - Present",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  },
+];
+
+// This is for Services Section
+export const Service = [
+  {
+    id: 1,
+    title: "Responsive Design",
+    description:
+      "Responsive design ensures websites adjust to any device, from desktops to smartphones.",
+    icon: <Dock size={30} />,
+  },
+  {
+    id: 2,
+    title: "UI/UX",
+    description:
+      "UI focuses on the look and feel of the website, while UX ensures it's easy to use and provides a smooth, enjoyable experience.",
+    icon: <Figma size={30} />,
+  },
+  {
+    id: 3,
+    title: "Development",
+    description:
+      "Bringing your vision to life with the latest technology and design trends.",
+    icon: <Code size={30} />,
+  },
+  {
+    id: 4,
+    title: "Dependencies",
+    description:
+      "Dependencies enhance functionality and streamline development processes, ensuring efficient code execution and improved user experience.",
+    icon: <BookOpenText size={30} />,
   },
 ];

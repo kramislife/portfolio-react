@@ -9,8 +9,8 @@ import {
 const Technologies = () => {
   return (
     <>
-      <section>
-        <div className="my-10 lg:my-36">
+      <section className="my-12 lg:my-24 space-y-10">
+        <div>
           <h1 className="gradient text-3xl text-center pb-10"> Technologies</h1>
           <TooltipProvider>
             <div className="flex flex-wrap justify-center gap-16">

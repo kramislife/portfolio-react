@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 
 const Hero = () => {
   return (
-    <section>
-      <div className="px-4 flex flex-col lg:flex-row-reverse items-center lg:space-x-10 py-5">
+    <section className="my-12 lg:my-24 space-y-10">
+      <div className="px-4 flex flex-col lg:flex-row-reverse items-center lg:space-x-10">
         {/* Image */}
         <div className="lg:w-1/2">
           <img
