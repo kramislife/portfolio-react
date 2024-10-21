@@ -11,21 +11,25 @@ const Technologies = () => {
     <>
       <section className="my-12 lg:my-24 space-y-10">
         <div>
-          <h1 className="gradient text-3xl text-center pb-10"> Technologies</h1>
+          <h1 className="gradient text-3xl text-center pb-16 lg:pb-20">
+            {" "}
+            Technologies
+          </h1>
           <TooltipProvider>
-            <div className="flex flex-wrap justify-center gap-16">
+            <div className="flex flex-wrap justify-center lg:gap-x-20 gap-5 px-5 gap-y-10">
               {Technology.map((item) => (
                 <Tooltip key={item.id}>
                   <TooltipTrigger>
                     <div
-                      className="transition duration-300 ease-in-out hover:scale-125 pt-3"
+                      className="flex flex-col items-center transition duration-300 ease-in-out hover:scale-110 lg:hover:scale-125 pt-3"
                       style={{ color: item.color }}
                     >
                       {item.icon}
+                      <p className="text-lg font-semibold pt-5">{item.name}</p>
                     </div>
                   </TooltipTrigger>
-                  <TooltipContent>
-                    <p> {item.name} </p>
+                  <TooltipContent className="max-w-xs m-2 text-stone-400">
+                    <p> {item.description} </p>
                   </TooltipContent>
                 </Tooltip>
               ))}

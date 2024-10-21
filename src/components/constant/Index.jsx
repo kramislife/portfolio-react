@@ -55,42 +55,56 @@ export const Technology = [
     name: "HTML 5",
     icon: <FaHtml5 size={50} />,
     color: "#E34F26", // HTML5 Orange
+    description:
+      "The standard markup language for creating web pages, enabling structure and multimedia support.",
   },
   {
     id: 2,
     name: "Tailwind CSS",
     icon: <RiTailwindCssFill size={50} />,
     color: "#38B2AC", // Tailwind Teal
+    description:
+      "A utility-first CSS framework for rapid UI development, promoting responsive design and consistency.",
   },
   {
     id: 3,
     name: "React JS",
     icon: <FaReact size={50} />,
     color: "#61DAFB", // React Blue
+    description:
+      "A popular JavaScript library for building user interfaces, focusing on component-based architecture.",
   },
   {
     id: 4,
     name: "ShadCn",
     icon: <SiShadcnui size={50} />,
-    color: "#D1D5DB", // ShadCn Gray
+    color: "#F08080", // ShadCn Gray
+    description:
+      "A design system and component library for React, providing customizable and reusable UI components.",
   },
   {
     id: 5,
     name: "Framer Motion",
     icon: <TbBrandFramerMotion size={50} />,
-    color: "white", // Framer Motion Pink
+    color: "#3CB371", // Framer Motion Pink
+    description:
+      "An animation library for React, enabling smooth and complex animations with a simple API.",
   },
   {
     id: 6,
     name: "Figma",
     icon: <SiFigma size={50} />,
-    color: "#F24E1E", // Figma Orange
+    color: " #FF1493", // Figma Orange
+    description:
+      "A collaborative design tool for creating interfaces and prototypes in real-time.",
   },
   {
     id: 7,
     name: "GitHub",
     icon: <FaGithub size={50} />,
-    color: "white", // GitHub Dark Gray
+    color: "#F5F5DC", // GitHub Dark Gray
+    description:
+      "A platform for version control and collaboration, allowing developers to manage code repositories.",
   },
 ];
 
