@@ -1,4 +1,4 @@
-import profile from "@assets/profile.png";
+import cover from "@assets/cover.png";
 import resume from "@assets/resume.pdf";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
@@ -31,16 +31,17 @@ const Hero = () => {
     <section className="my-12 lg:my-0 space-y-10">
       <div className="px-4 flex flex-col lg:flex-row-reverse items-center lg:space-x-10">
         {/* Image */}
-        <div className="lg:w-1/2">
+        <div className="lg:w-1/2 flex justify-center my-5">
           <motion.img
-            src={profile}
+            src={cover}
             alt="Edmark Gariando"
-            className="lg:w-[80vh] lg:h-[80vh] rounded-lg shadow-lg my-5"
+            className="lg:w-[90vh] lg:h-[80vh] object-cover"
             initial={{ x: 100, opacity: 0 }}
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 1, delay: 1.5 }}
           />
         </div>
+
         {/* Text Content */}
         <motion.div
           initial="hidden"
