@@ -1,21 +1,56 @@
 import React from "react";
 import { Project, brandColors } from "../constant/Index";
 import { Button } from "../ui/button";
+import { motion } from "framer-motion";
+
+// Variants for project animation
+const projectVariants = {
+  hidden: { opacity: 0, x: -100 },
+  visible: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 1.5, // Keep the same duration for a smoother transition
+      ease: "easeInOut", // Using a standard easing function for a smoother pace
+    },
+  },
+};
 
 const Projects = () => {
   return (
     <section className="my-12 lg:my-24 space-y-10">
       <div className="py-12">
-        <h1 className="gradient text-3xl text-center pb-10 lg:pb-12">
+        <motion.h1
+          whileInView={{ opacity: 1, y: 0 }}
+          initial={{ opacity: 0, y: -100 }}
+          transition={{
+            duration: 1.2,
+            ease: "easeInOut", // Smooth easing for heading transition
+          }}
+          className="gradient text-3xl text-center pb-10 lg:pb-12"
+        >
           Projects
-        </h1>
+        </motion.h1>
+
         <div className="lg:space-y-20 lg:px-20">
           {Project.map((item) => (
-            <div
+            <motion.div
               key={item.id}
-              className="px-6 transition-transform transform hover:scale-105 cursor-pointer lg:py-0 py-5"
+              variants={projectVariants}
+              initial="hidden"
+              whileInView="visible"
+              className="px-6 transition-transform transform cursor-pointer lg:py-0 py-5"
             >
-              <div className="flex flex-col lg:flex-row items-center gap-5 lg:gap-20">
+              <motion.div
+                className="flex flex-col lg:flex-row items-center gap-5 lg:gap-20"
+                whileHover={{
+                  scale: 1.03, // Slight scaling on hover
+                  transition: {
+                    duration: 0.6, // Smooth hover transition
+                    ease: "easeInOut", // Consistent easing on hover
+                  },
+                }}
+              >
                 <img
                   src={item.image}
                   alt={item.name}
@@ -44,12 +79,16 @@ const Projects = () => {
                       <Button
                         key={index}
                         className="font-thin px-3 py-1 text-white rounded-md transition-colors duration-300"
+                        style={{
+                          backgroundColor: "transparent",
+                          border: `1px solid ${brandColors[tool]}`,
+                        }}
                         onMouseEnter={(e) => {
                           e.currentTarget.style.backgroundColor =
-                            brandColors[tool]; // Change background color on hover
+                            brandColors[tool];
                         }}
                         onMouseLeave={(e) => {
-                          e.currentTarget.style.backgroundColor = ""; // Reset background color on mouse leave
+                          e.currentTarget.style.backgroundColor = "transparent";
                         }}
                       >
                         {tool}
@@ -57,8 +96,8 @@ const Projects = () => {
                     ))}
                   </div>
                 </div>
-              </div>
-            </div>
+              </motion.div>
+            </motion.div>
           ))}
         </div>
       </div>
