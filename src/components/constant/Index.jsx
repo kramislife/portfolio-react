@@ -102,7 +102,7 @@ export const Project = [
     type: "Personal Project",
     image: elysium,
     description:
-      "This virtual reality (VR) website was designed to educate users on how VR technology works. It also leverages UI elements to create a smooth, immersive experience.",
+      "This virtual reality (VR) website was meticulously designed and developed to provide users with an engaging and educational experience about how VR technology operates. Utilizing cutting-edge web technologies, the platform features interactive UI elements and captivating visuals that immerse users in the world of VR. With a focus on intuitive navigation, the site guides users through the various aspects of VR, including its applications, benefits, and underlying technology. ",
     link: "https://elysium-virtual-reality.vercel.app/",
     tool: ["HTML", "Tailwind CSS", "React JS", "Framer Motion", "ShadCN"],
   },
@@ -112,7 +112,7 @@ export const Project = [
     type: "Internship",
     image: helpdesk,
     description:
-      "The IT Help Desk Portal was built to streamline the process of helping users find solutions to their technical problems. It leverages a comprehensive knowledge base, interactive guides, and a simple interface that ensures users can resolve issues quickly and independently.",
+      "The IT Help Desk Portal was built to streamline the process of helping users find solutions to their technical problems. It leverages a comprehensive knowledge base, interactive guides, and a simple interface that ensures users can resolve issues quickly and independently. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",
     link: "https://drive.google.com/file/d/1VPJwF3EvOj-7PGX7b9T55mrgXkV8ppCu/view",
     tool: [
       "HTML",
@@ -130,7 +130,7 @@ export const Project = [
     type: "Personal Project",
     image: primo,
     description:
-      "A virtual reality platform that allows users to explore and interact with a 3D environment using VR headsets.",
+      "Primo's Coffee Shop is crafted to create a delightful and engaging online experience for coffee lovers. Built with React.js and styled using TailwindCSS, the interface features a clean and responsive design that allows users to easily browse the menu, learn about our specialty brews, and place orders with just a few clicks. Emphasizing user experience, the portal includes interactive elements and visually appealing graphics, ensuring that customers can find their favorite drinks and discover new offerings effortlessly.",
     link: "https://primos-coffee-shop.vercel.app/",
     tool: ["HTML", "Tailwind CSS", "React JS", "Framer Motion", "ShadCN"],
   },
@@ -140,8 +140,7 @@ export const Project = [
     type: "Capstone | Front-end Web Developer",
     image: sass,
     description:
-      "A virtual reality platform that allows users to explore and interact with a 3D environment using VR headsets.",
-    link: "https://www.google.com",
+      "The Student Academic Services System is a modern solution designed to provide students with seamless, paperless access to essential academic services online. This system streamlines processes such as course registration, grade inquiries, and document requests, allowing students to manage their academic needs conveniently from anywhere. With a user-friendly interface, the platform enhances accessibility and efficiency, enabling students to navigate services with ease. By eliminating the need for physical paperwork, this system promotes sustainability while ensuring that students can focus on their academic success without the hassle of traditional administrative tasks.",
     tool: ["HTML", "Bootstrap CSS", "Vanilla JavaScript", "Python", "MySQL"],
   },
   {
@@ -150,9 +149,9 @@ export const Project = [
     type: "Research | Full-stack Web Developer",
     image: cms,
     description:
-      "A virtual reality platform that allows users to explore and interact with a 3D environment using VR headsets.",
-    link: "https://www.google.com",
-    tool: ["HTML", "Bootstrap CSS", "Vanilla JavaScript"],
+      "The University Complaint Management System is an innovative solution designed to streamline the process of handling student grievances. Utilizing the Naive Bayes algorithm, this system intelligently categorizes and analyzes complaints, enabling efficient resolution by administrative staff. The user-friendly interface allows students to submit their issues easily and track their status in real-time. By leveraging data-driven insights, the system enhances responsiveness and ensures that complaints are addressed promptly, ultimately fostering a supportive academic environment. This project not only improves communication between students and the administration but also demonstrates the application of machine learning in enhancing university services.",
+    link: "https://www.youtube.com/watch?v=3jJVojIvULg&t=12s",
+    tool: ["HTML", "Bootstrap CSS", "Vanilla JavaScript", "PHP", "MySQL"],
   },
 ];
 
@@ -168,6 +167,7 @@ export const brandColors = {
   Laravel: "#FF2D20",
   Python: "#306998",
   MySQL: "#4479A1",
+  PHP: "#DC143C",
 };
 
 // This is for Experience Section

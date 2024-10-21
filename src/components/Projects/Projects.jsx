@@ -36,7 +36,9 @@ const Projects = () => {
                   >
                     {item.link}
                   </a>
-                  <p className="mt-5 text-sm">{item.description}</p>
+                  <p className="mt-5 text-sm leading-loose">
+                    {item.description}
+                  </p>
                   <div className="flex flex-wrap gap-2 mt-4">
                     {item.tool.map((tool, index) => (
                       <Button
