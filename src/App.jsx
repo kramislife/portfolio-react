@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
+import Technologies from "./components/Technologies/Technologies";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
         <div className="relative z-10">
           <Navbar />
           <Hero />
+          <Technologies/>
         </div>
       </div>
     </>
