@@ -86,7 +86,7 @@ export const Technology = [
     id: 5,
     name: "Framer Motion",
     icon: <TbBrandFramerMotion size={50} />,
-    color: "#3CB371", // Framer Motion Pink
+    color: "#FF0081", // Framer Motion Pink
     description:
       "An animation library for React, enabling smooth and complex animations with a simple API.",
   },
@@ -94,7 +94,7 @@ export const Technology = [
     id: 6,
     name: "Figma",
     icon: <SiFigma size={50} />,
-    color: " #FF1493", // Figma Orange
+    color: " #3CB371", // Figma Orange
     description:
       "A collaborative design tool for creating interfaces and prototypes in real-time.",
   },
@@ -170,32 +170,19 @@ export const Project = [
 ];
 
 export const brandColors = {
-  HTML: "#E44D26",
+  HTML: "#E34F26",
   CSS: "#1572B6",
   "Bootstrap CSS": "#7952B3",
   "Tailwind CSS": "#38B2AC",
   "React JS": "#61DAFB",
   "Framer Motion": "#FF0081",
-  ShadCN: "#F6B93B",
-  "Vanilla JavaScript": "#F7DF1E",
+  ShadCN: "#F08080",
+  "Vanilla JavaScript": "#F6B93B",
   Laravel: "#FF2D20",
   Python: "#306998",
   MySQL: "#4479A1",
   PHP: "#DC143C",
 };
-
-// This is for Experience Section
-export const Experience = [
-  {
-    id: 1,
-    company: "ABC Corp.",
-    title: "Software Engineer",
-    location: "San Francisco, CA",
-    duration: "2020 - Present",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-];
 
 // This is for Services Section
 export const Service = [
@@ -228,3 +215,25 @@ export const Service = [
     icon: <BookOpenText size={30} />,
   },
 ];
+
+//This is for Contact Section
+// export const Contacts = [
+//   {
+//     id: 1,
+//     name: "Email",
+//     value: "info@example.com",
+//     icon: <ImMail size={25} />,
+//   },
+//   {
+//     id: 2,
+//     name: "Phone",
+//     value: "+1 123-456-7890",
+//     icon: <ImPhone size={25} />,
+//   },
+//   {
+//     id: 3,
+//     name: "Address",
+//     value: "123 Main St, City, State, 12345",
+//     icon: <ImLocation size={25} />,
+//   },
+// ];

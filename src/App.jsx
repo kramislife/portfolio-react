@@ -5,6 +5,7 @@ import Technologies from "./components/Technologies/Technologies";
 import Projects from "./components/Projects/Projects";
 import Experience from "./components/Experience/Experience";
 import Services from "./components/Services/Services";
+import Contact from "./components/Contact/Contact";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Projects />
         <Experience />
         <Services />
+        <Contact />
       </div>
     </>
   );
