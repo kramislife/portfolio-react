@@ -10,8 +10,8 @@ const Technologies = () => {
   return (
     <>
       <section>
-        <div className="p-5 space-y-10">
-          <h1 className="gradient text-3xl text-center"> Technologies</h1>
+        <div className="my-10 lg:my-36">
+          <h1 className="gradient text-3xl text-center pb-10"> Technologies</h1>
           <TooltipProvider>
             <div className="flex flex-wrap justify-center gap-16">
               {Technology.map((item) => (

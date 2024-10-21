@@ -15,7 +15,7 @@ const Hero = () => {
           />
         </div>
         {/* Text Content */}
-        <div className="lg:w-1/2 text-neutral-300 lg:space-y-8">
+        <div className="lg:w-1/2 lg:space-y-8">
           <div className="my-5">
             <h1 className="text-4xl lg:text-5xl font-bold lg:mb-2">
               Edmark Gariando
