@@ -13,7 +13,7 @@ const Projects = () => {
           {Project.map((item) => (
             <div
               key={item.id}
-              className="px-6 shadow-md transition-transform transform hover:scale-105 cursor-pointer"
+              className="px-6 transition-transform transform hover:scale-105 cursor-pointer lg:py-0 py-5"
             >
               <div className="flex flex-col lg:flex-row items-center gap-5 lg:gap-20">
                 <img
