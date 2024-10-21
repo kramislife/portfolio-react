@@ -37,7 +37,7 @@ export const NavItems = [
 export const Technology = [
   {
     id: 1,
-    name: "React",
+    name: "React JS",
     icon: <FaReact size={50} />,
     color: "#61DAFB", // React Blue
   },

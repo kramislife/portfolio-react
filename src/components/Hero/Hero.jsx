@@ -5,13 +5,13 @@ import { Button } from "@/components/ui/button";
 const Hero = () => {
   return (
     <section>
-      <div className="px-4 flex flex-col lg:flex-row-reverse items-center lg:space-x-10 mb-10 mt-10 lg:mt-0">
+      <div className="px-4 flex flex-col lg:flex-row-reverse items-center lg:space-x-10 py-5">
         {/* Image */}
-        <div className="lg:w-1/2 lg:my-5">
+        <div className="lg:w-1/2">
           <img
             src={profile}
             alt="Edmark Gariando"
-            className="lg:w-[90vh] lg:h-[90vh] rounded-lg shadow-lg"
+            className="lg:w-[80vh] lg:h-[80vh] rounded-lg shadow-lg my-5"
           />
         </div>
         {/* Text Content */}

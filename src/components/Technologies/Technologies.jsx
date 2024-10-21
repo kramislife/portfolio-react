@@ -1,24 +1,39 @@
 import { Technology } from "../constant/Index";
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from "@/components/ui/tooltip";
 
 const Technologies = () => {
   return (
-    <section className="px-5">
-      <h1 className="gradient text-3xl text-center lg:pb-20 pb-10">
-        {" "}
-        Technologies
-      </h1>
-      <div className="flex flex-wrap justify-center gap-20 lg:gap-10 text-white">
-        {Technology.map((item) => (
-          <div
-            key={item.id}
-            className="transition duration-300 ease-in-out hover:scale-125"
-            style={{ color: item.color }} // Apply the color dynamically
-          >
-            {item.icon}
-          </div>
-        ))}
-      </div>
-    </section>
+    <>
+      <section>
+        <div className="p-5 space-y-10">
+          <h1 className="gradient text-3xl text-center"> Technologies</h1>
+          <TooltipProvider>
+            <div className="flex flex-wrap justify-center gap-16">
+              {Technology.map((item) => (
+                <Tooltip key={item.id}>
+                  <TooltipTrigger>
+                    <div
+                      className="transition duration-300 ease-in-out hover:scale-125 pt-3"
+                      style={{ color: item.color }}
+                    >
+                      {item.icon}
+                    </div>
+                  </TooltipTrigger>
+                  <TooltipContent>
+                    <p> {item.name} </p>
+                  </TooltipContent>
+                </Tooltip>
+              ))}
+            </div>
+          </TooltipProvider>
+        </div>
+      </section>
+    </>
   );
 };
 
