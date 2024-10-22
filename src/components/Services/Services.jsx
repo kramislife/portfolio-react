@@ -55,7 +55,7 @@ const Services = () => {
               className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4"
             >
               <motion.div
-                className="py-6 rounded-lg shadow-lg transition-all duration-300 ease-in-out h-full"
+                className="py-6 px-2 rounded-lg shadow-lg transition-all duration-300 ease-in-out h-full"
                 whileHover={{
                   scale: 1.03,
                   boxShadow: "10px 20px 20px 20px rgba(0,0,0,0.5)",

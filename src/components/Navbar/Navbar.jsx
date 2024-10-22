@@ -6,9 +6,7 @@ const Navbar = () => {
   return (
     <nav className="w-full">
       <div className="flex items-center justify-between lg:mx-10 mx-4">
-        <div className="flex items-center">
-          <img src={logo} alt="logo" className="h-24 w-24" />
-        </div>
+        <img src={logo} alt="logo" className="h-24 w-24" />
         <ul className="flex space-x-5 lg:mr-10">
           {NavItems.map((item) => (
             <li key={item.id}>

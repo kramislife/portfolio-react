@@ -1,4 +1,4 @@
-import cover from "@assets/cover.png";
+import hero3 from "@assets/hero3.png";
 import resume from "@assets/resume.pdf";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
@@ -33,7 +33,7 @@ const Hero = () => {
         {/* Image */}
         <div className="lg:w-1/2 flex justify-center my-5">
           <motion.img
-            src={cover}
+            src={hero3}
             alt="Edmark Gariando"
             className="lg:w-[90vh] lg:h-[80vh] object-cover"
             initial={{ x: 100, opacity: 0 }}
