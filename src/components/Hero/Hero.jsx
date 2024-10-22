@@ -31,7 +31,7 @@ const Hero = () => {
     <section className="my-12 lg:my-0 space-y-10">
       <div className="px-4 flex flex-col lg:flex-row-reverse items-center lg:space-x-10">
         {/* Image */}
-        <div className="lg:w-1/2 flex justify-center my-5">
+        <div className="lg:w-1/2 flex justify-center mb-5 lg:ml-0 ml-2">
           <motion.img
             src={hero3}
             alt="Edmark Gariando"

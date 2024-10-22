@@ -5,15 +5,15 @@ import logo from "@assets/logo.png";
 const Navbar = () => {
   return (
     <nav className="w-full">
-      <div className="flex items-center justify-between lg:mx-10 mx-4">
-        <img src={logo} alt="logo" className="h-24 w-24" />
-        <ul className="flex space-x-5 lg:mr-10">
+      <div className="flex items-center justify-between lg:mx-10">
+        <img src={logo} alt="logo" className="h-24 w-24 mx-2" />
+        <ul className="flex space-x-5 mx-4">
           {NavItems.map((item) => (
             <li key={item.id}>
               <a
                 target="_blank"
                 rel="noreferrer"
-                className={`transition duration-300 ease-in-out hover:scale-125 
+                className={`transition duration-300 ease-in-out
                 ${item.id === 1 ? "hover:text-blue-600" : ""}
                 ${item.id === 2 ? "hover:text-pink-400" : ""}
                 ${item.id === 3 ? "hover:text-red-600" : ""}
