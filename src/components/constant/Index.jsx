@@ -123,7 +123,7 @@ export const Project = [
   {
     id: 2,
     name: "IT Help Desk Portal",
-    type: "Internship",
+    type: "Internship | Front-end Web Developer",
     image: helpdesk,
     description:
       "The IT Help Desk Portal was built to streamline the process of helping users find solutions to their technical problems. It leverages a comprehensive knowledge base, interactive guides, and a simple interface that ensures users can resolve issues quickly and independently. Collaborated with cross-functional teams to deliver high-quality software products on schedule.",

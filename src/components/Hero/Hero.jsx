@@ -68,8 +68,8 @@ const Hero = () => {
             className="text-sm lg:text-md lg:leading-relaxed lg:mt-3"
           >
             I'm a passionate Front-End Developer with expertise in building
-            responsive and dynamic web applications using ReactJS, HTML, and
-            Tailwind CSS. I specialize in writing clean, maintainable code,
+            responsive and dynamic web applications using HTML, Tailwind CSS,
+            and ReactJS. I specialize in writing clean, maintainable code,
             creating intuitive user interfaces, and optimizing performance. My
             strengths lie in state management and component-based architecture,
             with a strong focus on delivering smooth, seamless user experiences.

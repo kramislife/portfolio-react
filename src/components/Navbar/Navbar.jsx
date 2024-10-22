@@ -4,10 +4,11 @@ import logo from "@assets/logo.png";
 
 const Navbar = () => {
   return (
-    <nav className="w-full py-4">
+    <nav className="w-full">
       <div className="flex items-center justify-between lg:mx-10 mx-4">
-        <img src={logo} alt="logo" className="h-12 w-12" />
-
+        <div className="flex items-center">
+          <img src={logo} alt="logo" className="h-24 w-24" />
+        </div>
         <ul className="flex space-x-5 lg:mr-10">
           {NavItems.map((item) => (
             <li key={item.id}>
