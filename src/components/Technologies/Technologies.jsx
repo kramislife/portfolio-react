@@ -35,7 +35,7 @@ const Technologies = () => {
 
         <TooltipProvider>
           <motion.div
-            className="grid grid-cols-3 md:grid-cols-4 justify-items-center gap-y-10 lg:flex lg:flex-wrap lg:justify-center px-1 lg:space-x-24 [&>*:last-child]:col-span-3 md:[&>*:last-child]:col-span-4"
+            className="grid grid-cols-3 md:grid-cols-4 justify-items-center gap-y-10 lg:flex flex-wrap lg:justify-center lg:space-x-24 [&>*:last-child]:col-span-3 md:[&>*:last-child]:col-span-1"
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1.5 }}
