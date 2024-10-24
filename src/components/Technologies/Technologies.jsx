@@ -35,7 +35,7 @@ const Technologies = () => {
 
         <TooltipProvider>
           <motion.div
-            className="flex flex-wrap justify-center lg:gap-x-20 gap-10 px-5 gap-y-10"
+            className="flex flex-wrap justify-center lg:gap-x-20 gap-5 px-5 gap-y-10"
             whileInView={{ opacity: 1, x: 0 }}
             initial={{ opacity: 0, x: -100 }}
             transition={{ duration: 1.5 }}
