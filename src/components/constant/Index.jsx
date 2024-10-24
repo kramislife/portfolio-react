@@ -76,19 +76,19 @@ export const Technology = [
   },
   {
     id: 4,
-    name: "ShadCn",
-    icon: <SiShadcnui size={50} />,
-    color: "#F08080", // ShadCn Gray
-    description:
-      "A design system and component library for React, providing customizable and reusable UI components.",
-  },
-  {
-    id: 5,
     name: "Framer Motion",
     icon: <TbBrandFramerMotion size={50} />,
     color: "#FF0081", // Framer Motion Pink
     description:
       "An animation library for React, enabling smooth and complex animations with a simple API.",
+  },
+  {
+    id: 5,
+    name: "ShadCn",
+    icon: <SiShadcnui size={50} />,
+    color: "#F08080", // ShadCn Gray
+    description:
+      "A design system and component library for React, providing customizable and reusable UI components.",
   },
   {
     id: 6,
