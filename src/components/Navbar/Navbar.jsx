@@ -2,7 +2,6 @@ import React from "react";
 import { NavItems } from "../constant/Index";
 import logo from "@assets/logo.png";
 
-// ssdada
 const Navbar = () => {
   return (
     <nav className="w-full">
