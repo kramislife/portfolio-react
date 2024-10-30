@@ -2,6 +2,7 @@ import React from "react";
 import { NavItems } from "../constant/Index";
 import logo from "@assets/logo.png";
 
+// dadha
 const Navbar = () => {
   return (
     <nav className="w-full">
