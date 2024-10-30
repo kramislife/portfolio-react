@@ -4,6 +4,7 @@ import logo from "@assets/logo.png";
 
 const Navbar = () => {
   return (
+    // comment
     <nav className="w-full">
       <div className="flex items-center justify-between lg:mx-10">
         <img src={logo} alt="logo" className="h-24 w-24 mx-2" />
